@@ -13,3 +13,7 @@ HOW TO RUN
 
 WHAT DOES THIS DO? 
 relocates a source executable to run inside of a target. This is a good feature to have inside of a malicous program or a cheat because you can then theoretically hijack a process handle that is of importance or whatever. 
+
+
+WHY IS THIS DIFFERENT FROM OTHER PE INJECTORS? 
+It uses classes and from the sources i used to make this they didnt have them like this. So i can theoretically write a program to create more than one object and call for different processes and they can inject at the same time.
